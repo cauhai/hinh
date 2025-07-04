@@ -1,4 +1,4 @@
-:root {
+html, body, #root {
   font-family: "Quicksand", Helvetica, sans-serif;
   font-optical-sizing: auto;
   font-size: 24px;
@@ -9,7 +9,7 @@
 }
 
 body {
-  background: rgb(200, 200, 200);
+  background: rgb(210, 210, 200);
 }
 
 a {

@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pmndrs/assets": "^1.7.0",
     "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.1.2",
+    "nice-color-palettes": "^4.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^6.30.1",

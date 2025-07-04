@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { useRef, useState, useMemo, useEffect, Suspense } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Billboard, Text, TrackballControls } from '@react-three/drei'
-import './WordsSphere.css'
 
 function randomText() {
   const texts = ["kindness", "sympathy", "love", "patience", "humility", "generosity", "intelligence", "care" ]
@@ -75,7 +74,7 @@ const WordsSphere = () => (
     <Link to="/">Home</Link>
     <h2>Sphere of words</h2>
     <p>Drag mouse to spin, scroll-wheel to zoom.</p>
-    <div className="universe">
+    <div style={{ height: 600, backgroundColor: 'black' }}>
       <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 50], fov: 90 }}>
         <fog attach="fog" args={['salmon', 0, 90]} />
         <Suspense fallback={null}>
